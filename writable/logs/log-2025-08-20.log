@@ -1,0 +1,95 @@
+CRITICAL - 2025-08-20 15:01:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "beranda.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beranda', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('beranda')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 15:01:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "beranda.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beranda.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beranda', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('beranda')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 15:02:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/footer.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/footer.php')
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/footer', null, true)
+ 3 APPPATH\Views\layout\page_layout.php(20): CodeIgniter\View\View->include('layout/footer')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\MyCi\\app\\Views\\layout\\page_layout.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beranda', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('beranda')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 15:15:45 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: /]
+in APPPATH\Views\layout\head.php on line 3.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(475): CodeIgniter\View\View->render('layout/head', null, true)
+ 3 APPPATH\Views\layout\page_layout.php(16): CodeIgniter\View\View->include('layout/head')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\MyCi\\app\\Views\\layout\\page_layout.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/page_layout', [], true)
+ 7 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beranda', [], true)
+ 8 APPPATH\Controllers\Home.php(10): view('beranda', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 15:18:58 --> ErrorException: Undefined variable $thalaman
+[Method: GET, Route: beranda]
+in APPPATH\Views\beranda.php on line 6.
+ 1 APPPATH\Views\beranda.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $thalaman', 'C:\\xampp\\htdocs\\MyCi\\app\\Views\\beranda.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\MyCi\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Page.php(9): view('beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 15:19:31 --> ErrorException: Undefined variable $thalaman
+[Method: GET, Route: beranda]
+in APPPATH\Views\beranda.php on line 6.
+ 1 APPPATH\Views\beranda.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $thalaman', 'C:\\xampp\\htdocs\\MyCi\\app\\Views\\beranda.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\MyCi\\app\\Views\\beranda.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('beranda', [], true)
+ 5 APPPATH\Controllers\Page.php(10): view('beranda')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 15:19:48 --> TypeError: App\Controllers\Page::beranda(): Return value must be of type string, none returned
+[Method: GET, Route: beranda]
+in APPPATH\Controllers\Page.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Page->beranda()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

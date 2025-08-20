@@ -6,6 +6,8 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('welcome_message');
+        $data['thalaman'] = "Welcome Upgrade Mate!!";
+        return view('beranda',$data);
     }
+    
 }
