@@ -11,6 +11,7 @@ class Page extends BaseController
     }
      public function data1(): string
     {
+       
         $data['thalaman'] = "List Data";
         return view('data1',$data);
     }
