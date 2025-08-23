@@ -10,14 +10,14 @@
           <a class="nav-link active" aria-current="page" href="<?= base_url("beranda"); ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="<?= base_url('data1') ?>">Bank Data</a>
+          <a class="nav-link" href="<?= base_url('data1') ?>">Practicioner</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+           <i class="fas fa-bars"></i>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="<?= base_url('data1IN') ?>">Entry Practicioner</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>

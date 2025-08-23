@@ -15,4 +15,10 @@ class Page extends BaseController
         $data['thalaman'] = "List Data";
         return view('data1',$data);
     }
+    public function data1IN(): string
+    {
+       
+        $data['thalaman'] = "Data Entry";
+        return view('data1IN',$data);
+    }
 }
